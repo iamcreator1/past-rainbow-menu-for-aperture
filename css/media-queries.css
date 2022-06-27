@@ -1,0 +1,174 @@
+@media only screen and (max-width: 1151px) {
+	.what-we-do .wrapp-top {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.main_banner .text {
+		padding: 0 16px;
+	}
+
+	header .container>nav .menu_header {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 584px) {
+	.main_banner .text {
+		padding: 0 16px;
+		margin-bottom: calc((584px - 100vw)/2);
+	}
+
+	.main_banner .container .text p {
+		font-size: 10px;
+		padding: 0 10px;
+	}
+}
+
+@media only screen and (max-width: 827px) {
+	header .menu_header {
+		display: none;
+	}
+
+	header .container {
+		padding: 0 10px;
+	}
+
+	.burger {
+		display: block;
+	}
+
+	header .container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	header .logo {
+		margin-right: auto;
+		display: flex;
+
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.what-we-do .text {
+		margin-left: 30px;
+	}
+
+	header .menu_header {
+		display: none;
+	}
+
+	header .container {
+		padding: 0 10px;
+	}
+
+	.burger {
+		display: block;
+	}
+
+	.what-we-do .text {
+		margin-left: 30px;
+	}
+}
+
+
+
+@media only screen and (max-width: 534px) {
+	.banner_four .container {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.banner_four .container a {
+		margin: 16px 32px;
+	}
+
+
+}
+
+@media only screen and (max-width: 534px) {
+	.overlay-navigation nav li a {
+
+		position: relative;
+		top: 46%;
+		color: #fff;
+		font-family: 'Work sans', sans-serif;
+		font-weight: 300;
+		letter-spacing: 4px;
+		text-decoration: none;
+		display: block;
+		text-align: center;
+		font-size: 15px;
+	}
+}
+
+
+
+@media only screen and (max-width: 428px) {
+	.main_banner p {
+		font-size: 10px;
+		padding: 0 16px;
+	}
+
+	.what-we-do h2 {
+		padding: 0 16px;
+	}
+
+	.what-we-do {
+		padding: 60px 0 50px;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.banner_four .container {
+		margin-bottom: 24px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.what-we-do .wrapp-top {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+}
+
+@media only screen and (max-width: 360px) {}
+
+@media only screen and (max-width: 320px) {
+
+	.banner_four .container {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	.banner_four .container a {
+		margin-bottom: 16px;
+		margin: 0 16px;
+	}
+
+	.what-we-do .wrapp-top a {
+		margin-bottom: 16px;
+	}
+}
+
+@media only screen and (max-width:592px) {
+
+	.overlay-navigation nav li a {
+
+		position: relative;
+		top: 46%;
+		color: #fff;
+		font-family: 'Work sans', sans-serif;
+		font-weight: 300;
+		letter-spacing: 4px;
+		text-decoration: none;
+		display: block;
+		text-align: center;
+		font-size: 7px;
+	}
+
+}
